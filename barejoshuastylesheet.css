@@ -1,0 +1,107 @@
+
+body {
+	background-color: blanchedalmond;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 200%;
+	text-align: center;
+	color: red;
+	font-family: Georgia;
+}
+p {
+	font-size: 125%;
+	color: black;
+	text-align: left;
+	font-family: Verdana;
+	font-size: 24PX;
+}
+
+ol {
+	font-size: 125%;
+	color: black;
+	font-family: Verdana;
+	font-size: 24PX;
+}
+ul {
+	font-size: 125%;
+	color: black;
+	font-family: Verdana;
+	font-size: 24PX;
+	list-style-type: none;
+	}
+span.boldtext {
+	font-weight: bold;
+}
+
+span.italictext {
+	font-style: italic;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FF0000;
+}
+nav li {
+  display: inline-block;
+  float: left;
+  margin-right: 1px;
+}
+nav li a {
+  display: block;
+    min-width: 140px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    background: #FF0000;
+    text-decoration: none;
+}
+nav li a:hover {
+  background-color: #111;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+table {
+    width: 100%;
+	background-color: #FE9D2C;
+}
+th {
+    height: 25px;
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+table, th, td {
+    border: 1px solid black;
+	border-collapse: collapse;
+}
+td, caption {
+	padding: 5px;
+	text-align: center;
+	vertical-align: middle;
+}
+form {
+	font-size: 125%;
+	color: black;
+	text-align: left;
+	font-family: Verdana;
+	font-size: 24PX
+}
+div {
+	width: auto;
+	height: auto;
+	padding: 100px;
+	background-color: red;
+	text-align: center;
+	font-size: 125%;
+	font-family: Verdana;
+	font-size: 22PX;
+	font-weight: bold;
+}
